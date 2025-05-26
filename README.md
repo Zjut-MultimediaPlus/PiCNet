@@ -1,6 +1,7 @@
 # PiCNet
 PiCNet: Physics-infused Convolution Network for Radar-Based Precipitation Nowcasting
-The PiCNet is a pytorch-based model for precipitation nowcasting.
+The PiCNet is a pytorch-based model for precipitation nowcasting and the structure of PiCNet is in [PiCNet-structure](PiCNet/picnet_structure.pdf).
+
 
 For more information or papers, please refer to [PiCNet](https://ieeexplore.ieee.org/document/10890850).
 
