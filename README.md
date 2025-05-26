@@ -10,12 +10,16 @@ For more information or papers, please refer to [PiCNet](https://ieeexplore.ieee
 
 **PiCNet/PiCNet.py**: This file is the kernel file, it builds the whole model, contains the advection simulator module and the physics-guided prediction module and refining network module.
 
-**PiCNet/test.py & train.py**: The former contains the test process of the model. The train.py contains the train process of the model.
+**Adveciton/test.py & train.py**： The former contains the test process of the Advection smutilator. The train.py contains the training process of the Advection smutilator.
+
+**PiCNet/test.py & train.py**: The former contains the test process of the model. The train.py contains the training process of the model.
 
 # Train
 Firstly you should apply for the KNMI dataset, you can apply for the dataset by [KNMI](https://github.com/HansBambel/SmaAt-UNet).
 
-Then, you can use PiCNet/PiCNet/train.py to train your new model or load the pre-trained model.
+Then, you can use PiCNet/Adveciton/train.py and PiCNet/PiCNet/train.py to train your new model.
+
+The results of the Advection smutilator are trained by PiCNet/Adveciton/train.py.
 
 # Test
 You can use PiCNet/PiCNet/test.py to test your model.
